@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "405509264063",
+    "firebase_url": "https://e-clinic-app-14582.firebaseio.com",
+    "project_id": "e-clinic-app-14582",
+    "storage_bucket": "e-clinic-app-14582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405509264063:android:1ca246d74ff378059eac0a",
+        "android_client_info": {
+          "package_name": "com.example.e_clinicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405509264063-s04l1p0q1fl6o3c3vt5skna6dmvb75qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_clinicapp",
+            "certificate_hash": "7f1c44556eb627ad4ed5a2de494beff8df5e32c2"
+          }
+        },
+        {
+          "client_id": "405509264063-6l06n1k45r57gvcgbqcvn85nnb3849fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM7iIx4IkHJlSlpY4cc3ZI0cLh846VJjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405509264063-6l06n1k45r57gvcgbqcvn85nnb3849fu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
