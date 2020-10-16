@@ -23,6 +23,7 @@ public class Adminlogin extends AppCompatActivity {
     private EditText admin_email,admin_password;
     private Button admin_login;
     private FirebaseAuth firebaseAuth;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +37,8 @@ public class Adminlogin extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (admin_email.getText().toString().isEmpty()||admin_password.getText().toString().isEmpty()){
-                    admin_email.setError("requred");
-                    admin_password.setError("requred");
+                    admin_email.setError("requred!");
+                    admin_password.setError("requred!");
                 }
                 else
 
