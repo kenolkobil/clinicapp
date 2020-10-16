@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".updatepatientsrecords">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="update patients health records here..."
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:id="@+id/names"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Names"/>
+    <EditText
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:id="@+id/age"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Age"/>
+    <EditText
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:id="@+id/gender"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="gender"/>
+    <EditText
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:id="@+id/status"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="medical status"/>
+    <Button
+        android:id="@+id/updates"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="update"/>
+
+
+
+</LinearLayout>

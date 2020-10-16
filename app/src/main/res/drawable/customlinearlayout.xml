@@ -9,7 +9,7 @@
 
     <stroke
         android:width="2dp"
-        android:color="#C4CDE0" >
+        android:color="#da0384" >
     </stroke>
 
     <padding
@@ -20,8 +20,8 @@
     </padding>
 
     <corners
-        android:bottomLeftRadius="11dp"
-        android:bottomRightRadius="11dp">
+        android:radius="18dp"   >
     </corners>
 
 </shape>
+
